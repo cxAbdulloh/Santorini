@@ -1,0 +1,108 @@
+.active-description {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 2rem;
+    color: #333333;
+}
+.active-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+}
+.active-buttons {
+    display: flex;
+    gap: 2rem;
+}
+.active-btn-one {
+    background-color: #4567aa;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.6rem 3rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.active-btn-two, .active-btn-three {
+    background-color: #fff;
+    border: 1px solid #4567aa;
+    color: #4567aa;
+    text-transform: uppercase;
+    padding: 0.6rem 3rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.active-btn-two:hover, .active-btn-three:hover {
+    background-color: #4567aa;
+    color: #fff;
+}
+.active-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 50px 0;
+    width: 100%;
+}
+.second-active-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+.active-image-one {
+    border-top-right-radius: 80px;
+}
+.active-image-two {
+    border-top-left-radius: 80px;
+}
+.active-image-one {
+    width: 60%;
+}
+.active-image-two {
+    width: 40%;
+}
+.active-image-three {
+    width: 40%;
+}
+.active-image {
+    width: 60%;
+}
+ @media (max-width: 700px) {
+    .active-buttons {
+        display: flex;
+        gap: 7px;
+    }
+    .active-btn-one, .active-btn-two, .active-btn-three {
+        padding: 0.6rem 1.5rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .active-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .active-container {
+        margin: 0 10px;
+    }
+    .second-active-images {
+        flex-direction: column;
+    }
+    .active-images {
+        flex-direction: column;
+    }
+    .active-image-one {
+        width: 100%;
+    }
+    .active-image-two {
+        width: 100%;
+    }
+    .active-image-three {
+        width: 100%;
+    }
+    .active-image {
+        width: 100%;
+    }
+}

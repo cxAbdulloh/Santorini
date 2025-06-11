@@ -1,0 +1,122 @@
+.login-description {
+  color: #4567aa;
+  font-size: 2rem;
+  text-align: center;
+  margin: 80px 20px;
+}
+.second-login-description {
+  color: #333333;
+  font-size: 2rem;
+  text-align: center;
+  margin: 80px 20px;
+}
+@media (max-width: 568px) {
+  .login-description {
+    font-size: 1.5rem;
+  }
+  .second-login-description {
+    font-size: 1.5rem;
+  }
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+.login-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 50px 0;
+  width: 100%;
+}
+.login-image-one {
+  width: 60%;
+}
+.login-image-two {
+  width: 37%;
+}
+.three-login-container {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 2rem;
+  color: #333333;
+}
+@media (max-width: 568px) {
+  .login-images {
+    flex-direction: column;
+  }
+  .login-image-one {
+    width: 100%;
+  }
+  .login-image-two {
+    width: 100%;
+  }
+}
+
+.login-popup-description {
+  color: #333333;
+  font-size: 2rem;
+  text-align: center;
+}
+.login-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.login-popup-container {
+  place-self: center;
+  display: flex;
+  gap: 25px;
+  background-color: #fff;
+  flex-direction: column;
+  color: #808080;
+  width: max(23vw, 330px);
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.login-popup-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+}
+.login-popup-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-popup-inputs input {
+  outline: none;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  padding: 10px;
+}
+.login-popup-container button {
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: #4567aa;
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.login-popup-condition {
+  align-items: start;
+  display: flex;
+  gap: 8px;
+  margin-top: -15px;
+}
+.login-popup-condition input {
+  margin-top: 5px;
+}
+.login-popup p span {
+  color: #4567aa;
+  cursor: pointer;
+  font-weight: 500;
+}

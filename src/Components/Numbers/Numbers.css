@@ -1,0 +1,69 @@
+.number-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 10px
+}
+.number-image {
+  width: 400px;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+}
+.second-number-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.number-description {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 2rem;
+  color: #333333;
+}
+.none {
+  background-color: #F3F1F2;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  padding: 20px;
+}
+.number-btn {
+  background-color: #4567aa;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  padding: 0.6rem 3.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn-bottom {
+  background-color: rgba(231, 231, 231, 0.088);
+  color: #4567aa;
+  border: 1px solid #4567aa;
+  font-size: 1rem;
+  padding: 0.6rem 3.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.number-title {
+    color: #4567aa;
+}
+.number-text {
+    padding: 7px 0;
+}
+
+
+@media (max-width: 568px) {
+  .number-image {
+    width: 320px;
+  }
+  .second-number-item {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .none {
+    padding: 10px;
+  }
+}
