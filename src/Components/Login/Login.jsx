@@ -1,8 +1,10 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Login.css";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Login = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +15,13 @@ const Login = () => {
   };
 
   const [currState,setCurrState,] = useState("Login")
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: true,     
+    });
+  }, []);
 
   return (
     <>
@@ -119,8 +128,8 @@ const Login = () => {
         <h1 className="three-login-container">Windsurfing</h1>
         <div className="login-container">
           <div className="login-images">
-            <img src={assets.photo8} alt="" className="login-image-one" />
-            <img src={assets.photo9} alt="" className="login-image-two" />
+            <img src={assets.photo8} alt="" className="login-image-one" data-aos="fade-right"/>
+            <img src={assets.photo9} alt="" className="login-image-two" data-aos="fade-left"/>
           </div>
         </div>
 

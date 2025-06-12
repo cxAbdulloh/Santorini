@@ -56,7 +56,7 @@
 
 @media (max-width: 568px) {
   .number-image {
-    width: 320px;
+    width: 350px;
   }
   .second-number-item {
     flex-direction: column;

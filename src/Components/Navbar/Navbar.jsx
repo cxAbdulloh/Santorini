@@ -69,10 +69,7 @@ const Navbar = () => {
                 <li className="menu-item">
                   <a href="">How to get there</a>
                 </li>
-              </ul>
-
-              <ul className="second-menu-items">
-              <div className="btn">
+                <div className="btn">
                   <button className="burger-btn">Booking</button>
                 </div>
                 <li>
@@ -80,19 +77,6 @@ const Navbar = () => {
                     <span style={{ color: "#4567aa" }}>8(912) 038-80-44</span>
                   </a>
                 </li>
-                <li className="menu-item">
-                  <a href="">Attractions</a>
-                </li>
-                <li className="menu-item">
-                  <a href="">Extreme</a>
-                </li>
-                <li className="menu-item">
-                  <a href="">Boat trips</a>
-                </li>
-                <li className="menu-item">
-                  <a href="">Fishing</a>
-                </li>
-                
               </ul>
             </div>
           </div>

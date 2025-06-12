@@ -80,4 +80,7 @@
     .offer-image-two {
         width: 100%;
     }
+    .offer-btn-one, .offer-btn-two, .offer-btn-three {
+        padding: 0.6rem 2rem;
+    }
 }
