@@ -102,7 +102,7 @@ const Login = () => {
         </div>
         <div className="reg">
           <div className="menu-none" style={{display: "flex", gap: "5px"}}>
-           <button className="menu-back">Back</button>
+          <button className="menu-back"><Link to={"/"} style={{color: "#fff"}}>Back</Link></button>
           <button className="reg-btn">Sign UP</button>  
           </div>
           <div className="btn">
