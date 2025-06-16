@@ -101,7 +101,10 @@ const Login = () => {
           </div>
         </div>
         <div className="reg">
-          <button className="reg-btn">Sign UP</button>
+          <div className="menu-none" style={{display: "flex", gap: "5px"}}>
+           <button className="menu-back">Back</button>
+          <button className="reg-btn">Sign UP</button>  
+          </div>
           <div className="btn">
             <button className="nav-btn">Booking</button>
           </div>

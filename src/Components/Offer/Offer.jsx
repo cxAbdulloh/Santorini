@@ -6,7 +6,7 @@ const Offer = () => {
   return (
     <>
     <section id='offer'>
-        <h1 className='offer-description'>Hotel activities santorini</h1>
+        <h1 className='offer-description'>Hotel activities <br /> santorini</h1>
         <div className="offer-container">
             <div className="offer-buttons">
                 <button className="offer-btn-one">weddings</button>

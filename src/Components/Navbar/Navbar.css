@@ -89,7 +89,7 @@ nav {
 .menu-btn span {
   display: block;
   height: 4px;
-  z-index: 9999;
+  z-index: 2;
   background-color: #4567aa;
   transition: all 0.3s ease;
 }
