@@ -37,10 +37,6 @@ nav {
 .menu.menu-open .menu-list {
   transform: translateY(0%);
 }
-.menu-btn {
-  position: relative;
-  z-index: 999;
-}
 .menu-list {
   position: absolute;
   left: 0;
@@ -86,6 +82,8 @@ nav {
   margin-top: -10px;
   padding: 0;
   cursor: pointer;
+  z-index: 1000;
+  position: relative;
 }
 .menu-btn span {
   display: block;
@@ -97,6 +95,7 @@ nav {
 .reg {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 .reg-btn {
   background-color: #fff;
@@ -248,7 +247,7 @@ nav {
   }
   .menu-btn {
     width: 37px;
-   
+    height: 15px;
   }
   .nav-logo {
     display: none;
